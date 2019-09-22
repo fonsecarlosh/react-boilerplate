@@ -1,0 +1,26 @@
+@import '../../Common/Consts/cssConsts.scss';
+
+.loginbox-wrapper {
+  width: 100%;
+  display: flex;
+}
+
+.loginbox-input-wrapper {
+  margin: auto;
+}
+
+.loginbox-input-label {
+  font-weight: bold;
+  text-align: center;
+  line-height: 2em;
+}
+
+.loginbox-input-button {
+  border: 1px solid black;
+  width: fit-content;
+  padding: 4px 16px;
+  margin: 8px auto;
+  background-color: $secondaryColor;
+  cursor: pointer;
+  
+}
